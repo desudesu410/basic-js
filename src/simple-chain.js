@@ -4,7 +4,7 @@ const chainMaker = {
     return this.values.length;
   },
   addLink(value) {
-       this.values.push(`( ${value} )`);
+      this.values.push(`( ${value} )`);
     return this;
   },
   removeLink(position) {

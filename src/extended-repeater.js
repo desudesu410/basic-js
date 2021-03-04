@@ -8,7 +8,7 @@ module.exports = function repeater(str, options) {
   
   repeatTimes = typeof(options.repeatTimes) === 'number' ?  options.repeatTimes : 1;
   separator = (options.separator) ?  options.separator : '+';
-  additionSeparator = (options.additionSeparator) ? options.additionSeparator : '+';
+  additionSeparator = (options.additionSeparator) ? options.additionSeparator : '|';
   if (typeof(options.additionRepeatTimes) === 'number'){
     additionRepeatTimes = options.additionRepeatTimes;
   } else {
